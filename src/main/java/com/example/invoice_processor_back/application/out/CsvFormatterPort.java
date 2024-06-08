@@ -1,9 +1,9 @@
 package com.example.invoice_processor_back.application.out;
 
-import java.util.List;
+import java.util.Map;
 
-import com.example.invoice_processor_back.domain.Invoice;
+import com.example.invoice_processor_back.domain.Toll;
 
 public interface CsvFormatterPort {
-    byte[] formatTollsToCsv(List<Invoice> invoices);
+    byte[] formatTollsToCsv(Map<String, Toll> invoices);
 }
