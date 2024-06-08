@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: invoice-processor-back
+    data:
+        mongodb:
+            uri: mongodb://localhost:27018/invoicesdb
+            database: invoicesdb
